@@ -1,0 +1,12 @@
+body{
+  
+  background-color:white;
+}
+
+#container{
+  color:white;
+  background-color:blue;
+  margin:25px;
+  padding:25px;
+  border-radius:25px;
+}
