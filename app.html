@@ -3,18 +3,28 @@
   <head> 
     <title>About the App</title>
    <link rel="stylesheet" type="text/css" href="mystyle.css">
+   <script src="javascript.js"> </script>
   </head>
   <body>
     <div id="container">
-      
-   
+     
     <h3 style="text-align: center; font-size: 20px">
       About the App
     </h3>
     <p>
       <a href="index.html"> Home </a> | <a href="aboutme.html"> About Me </a> | <a href="app.html"> App </a>
     </p>
-    <p>
+    
+       <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Index</a>
+    <a href="aboutme.html">About me</a>
+    <a href="app.html">App</a>
+  </div>
+</div>
+      
+      <p>
       This app was created to be used as a quick, easy to navigate guide for html and css. It may not look nice, but I want it to load as
       quickly as possible. I often find myself forgetting simple things, like what tags make an ordered list versus an unordered one. So,
       this site is desinged to be a quick guide with commonly-forgotten stuff. If you cannot remeber the correct way to make an image or change
