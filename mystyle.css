@@ -4,12 +4,14 @@ body{
 }
 
 #container{
-  color:black;
-  background-color:blue;
+  color:white;
+  background-color:#4CAF50;
   margin:25px;
   padding:25px;
   border-radius:4px;
 }
+
+/* Above is CSS for the look of the whole site, below is just the dropdown button */
 
 /* Dropdown Button */
 .dropbtn {
