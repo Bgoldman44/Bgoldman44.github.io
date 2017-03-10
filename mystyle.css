@@ -1,11 +1,13 @@
 body{
   
-  background-color:grey;
+  background-color:#4CAF50;
 }
 
 #container{
-  color:white;
-  background-color:#4CAF50;
+  /* Text */
+  color:black;
+  /* inner backround */
+  background-color:white;
   margin:25px;
   padding:25px;
   border-radius:4px;
